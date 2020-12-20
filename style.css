@@ -12,11 +12,11 @@ body {
   min-height: 100vh;
   overflow: hidden;
   margin: 0;
-  background: rgb(228, 231, 235);
+  background: rgb(217, 228, 250);
   background: linear-gradient(
-    360deg,
-    rgba(228, 231, 235, 1) 0%,
-    rgba(161, 172, 184, 1) 100%
+    0deg,
+    rgba(217, 228, 250, 1) 0%,
+    rgba(112, 156, 237, 1) 100%
   );
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .panel.active h3 {
-	margin-left: 2rem;
+  margin-left: 2rem;
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
